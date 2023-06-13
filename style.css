@@ -1,0 +1,630 @@
+body {
+    font-family: 'Montserrat', Arial, monospace, sans-serif;
+    background-color: #23323D;
+    font-size: 18px;
+    margin: 0;
+    color: #b4c4cf;
+    line-height: 1.5;
+}
+
+.navbar {
+    list-style-type: none;
+    background-color: #23323D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 25px;
+    /* z-index: 100;
+    width: 85%;
+    position: fixed; */
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.logo img {
+    max-width: 30%;
+}
+
+.home a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-item a {    
+    text-decoration: none;
+    color: #b4c4cf;
+}
+
+.nav-item:hover a {
+    font-weight: 500;
+    color: white;
+}
+
+@font-face {
+    font-family: NotoColorEmojiLimited;
+    unicode-range: U+1F1E6-1F1FF;
+    src: url(https://raw.githack.com/googlefonts/noto-emoji/main/fonts/NotoColorEmoji.ttf);
+  }
+
+.flag {
+    font-family: 'NotoColorEmojiLimited', -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 
+    'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.langBtn {
+    background-color :#23323D;
+    border: none;
+    font-size: 25px;
+    transition: transform 150ms ease;
+    cursor: pointer;
+}
+
+.langBtn:hover {
+    transform: scale(1.2);
+
+}
+
+.start-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    background-color: #23323D;
+}
+
+.hash {
+    color: #90CAFA;
+}
+
+.text {
+    width: 30%;
+    padding: 35px;
+    border: 1px solid #82B6E0;
+    background-color: #47637A;
+}
+
+.text > p {
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+}
+
+.image {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover
+}
+
+h1 {
+    font-family: 'Montserrat', 'Courier New', monospace, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+}
+
+.about-me-container {
+    background-color: #23323D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #47637A; */
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.text-about-me {
+    text-align: justify;
+    padding: 0% 4% 0%;
+}
+
+.text-about-me-title {
+    text-align: justify;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-family: 'Montserrat', 'Courier New', monospace, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text-about-skills {
+    /* margin-bottom: -25px; */
+    text-align: justify;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-family: 'Montserrat', 'Courier New', monospace, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    /* background-color: red; */
+}
+
+.skills-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: green; */
+    margin-top: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #23323D;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 2%;
+    padding-bottom: 120px;
+}
+
+#skill-box {
+    background-color: #47637A;
+    text-align: center;
+    width: 250px;
+    border: 1px solid #82B6E0;
+}
+
+.my-work-container {
+    background-color: #23323D;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -1em;
+    /* border: 1px solid white; */
+    padding: 0;
+}
+
+.text-about-my-work {
+    margin-bottom: -25px;
+    text-align: justify;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-family: 'Montserrat', 'Courier New', monospace, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    /* background-color: red; */
+}
+
+.details {
+    padding-bottom: 2em;
+}
+
+.portfolio-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    gap: 4em;
+    /* margin-top: 2rem; */
+    /* border: 3px solid red; */
+    width: 70%;
+    /* padding: 3rem; */
+    /* background-color: red; */
+}
+
+.card {
+    display: flex;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px #1f63914d;
+    width: 12em;
+    height: 10em;
+    cursor: pointer;
+    transition: transform 150ms ease;
+}
+
+.video-card {
+    display: flex;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px #1f63914d;
+    width: 12em;
+    height: 10em;
+    cursor: pointer;
+    transition: transform 150ms ease;
+}
+
+.video-modal {
+    display: flex;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px #1f63914d;
+    width: 12em;
+    height: 10em;
+    cursor: pointer;
+    transition: transform 150ms ease;
+}
+
+.video-modal:hover {
+    transform: scale(1.1);
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.vid {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-box {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    /* padding-top: 100px; Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+.card-box-video {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    /* padding-top: 100px; Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+ .card-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #23323D;
+  }
+
+.caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 25%;
+    color: #23323D;
+    background-color: white;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+    height: 100%;
+    width: 100%;
+    /* background-color: #C778DD; */
+}
+
+hr {
+    border: 01px solid #82B6E0;
+    margin-top: 2%;
+    width: 23%;
+}
+
+.contact-container {
+    background-color: #23323D;
+    padding-top: 50px;
+    gap: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-contact {
+    display: flex;
+    width: 20%;
+    border: 1px solid #82B6E0;
+    background-color: #47637A;
+    padding: 50px;
+    justify-content: center;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.div-form-first {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    width: 100%;
+}
+
+.form-field {
+    font-family: 'Montserrat', Arial, monospace, sans-serif;
+    height: 20px;
+    /* font-size: 15px; */
+    border: 1px solid #47637A;
+    outline: 0;
+    background-color: transparent;
+    color: white;
+}
+
+.name-email {
+    width: 46%;
+}
+
+.title {
+    width: 99%;
+}
+
+.form-field:hover {
+    border: 1px solid #82B6E0;
+}
+
+.message {
+    font-family: 'Montserrat', Arial, monospace, sans-serif;
+    /* padding-left: 14px;
+    padding-right: 35px; */
+    width: 99%;
+    height: 120px;
+    font-size: 14px;
+    border: 1px solid #47637A;
+    outline: 0;
+    background-color: transparent;
+    padding-top: 5px;
+}
+
+.send {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 6px;
+    gap: 10px;
+    width: 71px;
+    height: 37px;
+    border: 1px solid #47637A;
+    background-color: transparent;
+    color: white;
+}
+
+.send:hover {
+    border: 3px solid #82B6E0;
+}
+
+.social-media-container {
+    background-color: #23323D;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.social-media-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    transition: transform 150ms ease;
+    cursor: pointer;
+}
+
+.social-media-box:hover {
+    transform: scale(1.2);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    border-top: 1px solid #82B6E0;
+    background-color: #47637A;
+    width: 100%;
+}
+
+.white-text {
+    color: white;
+}
+
+@media screen and (max-width: 1097px) {
+    .navbar {
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 25px;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 756px) {
+    body {
+        overflow-x: hidden;
+    }
+    
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: baseline;
+        width: 20vh;
+        border: 1px solid #82B6E0;
+        padding: 10px;
+    }
+
+    .start-container {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    .image {
+        height: 400px;
+        width: 400px;
+        margin-top: -80px;
+        margin-bottom: -80px;
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        /* border: 1px solid white; */
+    }
+
+    .image img {
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        max-width: 83%;
+        max-height: 83%;
+    }
+
+    .skills-container {
+        display: grid;
+        /* flex-direction: row; */
+        /* flex-wrap: wrap; */
+        background-color: #23323D;
+        /* align-items: flex-start; */
+        justify-content: center;
+        gap: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #skill-box {
+        background-color: #47637A;
+        text-align: center;
+        width: 250px;
+        border: 1px solid #82B6E0;
+    }
+
+    .about-me-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+
+    .text {
+        width: 60%;
+        padding: 30px;
+        border: 1px solid #82B6E0;
+    }
+
+    .portfolio-cards {
+        gap: 2rem;
+    }
+
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        padding-top: 1px;
+        margin-top: -2em;
+        gap: 50px;
+    }
+
+    .text-contact {
+        width: 45%;
+    }
+
+    .div-form-first {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .div-form-title {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .div-form-message {
+        display: flex;
+        justify-content: center;
+    }
+
+    #message {
+        height: 200px;
+    }
+
+    .send-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form-field {
+        height: 20px;
+        width: 70%;
+        font-size: 15px;
+        border: 1px solid #47637A;
+        outline: 0;
+        background-color: transparent;
+        color: white;
+    }
+
+    .social-media-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15%;
+    }
+
+    hr {
+        display: none;
+    }
+}
