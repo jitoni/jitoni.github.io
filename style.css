@@ -435,6 +435,12 @@ form {
     border: 3px solid #82B6E0;
 }
 
+.send-button {
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+
 .social-media-container {
     background-color: #23323D;
     display: flex;
@@ -597,6 +603,19 @@ form {
 
     #message {
         height: 200px;
+    }
+
+    .send {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 8px 6px;
+        gap: 10px;
+        width: 71px;
+        height: 37px;
+        border: 1px solid #47637A;
+        background-color: transparent;
+        color: white;
     }
 
     .send-button {
