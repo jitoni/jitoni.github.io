@@ -516,22 +516,17 @@ form {
     }
 
     .image {
-        height: 400px;
-        width: 400px;
+        height: 300px;
+        width: 360px;
         margin-top: 0px;
         margin-bottom: -40px;
-        /* display: flex;
-        align-items: center;
-        justify-content: center; */
-        /* border: 1px solid white; */
+        border: none;
     }
-
-    .image img {
-        /* display: flex;
-        justify-content: center;
-        align-items: center; */
-        max-width: 83%;
-        max-height: 83%;
+    
+    .photo {
+        width: 83%;
+        height: 83%;
+        border: 1px solid #82B6E0;
     }
 
     .skills-container {
@@ -563,7 +558,7 @@ form {
     .text {
         width: 60%;
         padding: 30px;
-        border: 1px solid #82B6E0;
+        /* border: 1px solid #82B6E0; */
     }
 
     .portfolio-cards {
