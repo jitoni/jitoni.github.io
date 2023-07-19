@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // Create the HTML for the modal, including the video URL
       var modalHtml = '<div class="card-box-video">' +
                       '<div class="modal-content" oncontextmenu="return false;" ondragstart="return false;">' +
-                      '<video src="' + videoUrl + '" frameborder="0" allowfullscreen controls autoplay width="800" type="video/mp4" muted></video>' +
+                      '<video class="video-content" src="' + videoUrl + '" frameborder="0" allowfullscreen controls autoplay width="800" type="video/mp4" muted></video>' +
                       '<div id="caption" class="caption">' + videoCaption + '</div>' +
                       '</div>' +
                       '</div>';
