@@ -421,7 +421,7 @@ form {
 .send {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     padding: 8px 6px;
     gap: 10px;
     width: 71px;
