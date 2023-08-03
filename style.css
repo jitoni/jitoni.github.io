@@ -404,8 +404,6 @@ form {
 
 .message {
     font-family: 'Montserrat', Arial, monospace, sans-serif;
-    /* padding-left: 14px;
-    padding-right: 35px; */
     width: 99%;
     height: 120px;
     font-size: 14px;
@@ -416,7 +414,6 @@ form {
 }
 
 .send {
-    /* display: flex; */
     flex-direction: row;
     align-items: center;
     padding: 8px 6px;
@@ -434,8 +431,6 @@ form {
 
 .send-button {
     display: flex;
-    /* align-items: center;
-    justify-content: center; */
 }
 
 .social-media-container {
