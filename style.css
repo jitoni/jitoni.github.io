@@ -128,21 +128,21 @@ body {
   }
   
   @media screen and (max-width: 600px){
-    h1 {
+    .welcome>h1 {
     text-align:center;
     text-transform: uppercase;
-    color: #82B6E0;
+    /* color: #82B6E0; */
     font-size: 2.125rem;
   }
     
     .roller {
-    height: 2.6rem; 
-    line-height: 2.125rem;  
+    height: 4.125rem; 
+    line-height: 2.125rem; 
     }
 
     
     .roller #rolltext {  
-    animation: slide-mob 5s infinite;  
+    animation: slide-mob 4s infinite;  
   }
     
     @keyframes slide-mob {
@@ -150,13 +150,19 @@ body {
       top:0;
     }
     25%{
-      top: -2.125rem;    
+      top: -4.125rem;    
     }
     50%{
-      top: -4.25rem;
+      top: -8.625rem;
     }
-    72.5%{
-      top: -6.375rem;
+    /* 72.5%{ */
+      /* top: -10.125rem; */
+    }
+    /* 75%{ */
+        /* top: -10.125rem; */
+    }
+    /* 80%{ */
+        /* top: -10.125rem; */
     }
   }
   }
