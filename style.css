@@ -157,10 +157,8 @@ body {
           50%{
             top: -4.25rem;
           }
-          /* 72.5%{ */
-            top: -6.25rem;
-          }
     }
+}
 
   @media screen and (max-width: 600px){
     .welcome>h1 {
