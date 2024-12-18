@@ -164,7 +164,7 @@ body {
     .welcome>h1 {
     text-align:center;
     text-transform: uppercase;
-    /* color: #82B6E0; */
+    color: #82B6E0;
     font-size: 2.125rem;
   }
     
@@ -197,7 +197,7 @@ body {
     .welcome>h1 {
     text-align:center;
     text-transform: uppercase;
-    color: #82B6E0;
+    /* color: #82B6E0; */
     font-size: 2.125rem;
   }
     
