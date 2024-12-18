@@ -127,7 +127,146 @@ body {
     }
   }
   
+  @media screen and (max-width: 846px){
+    .welcome>h1 {
+    text-align:center;
+    text-transform: uppercase;
+    /* color: #82B6E0; */
+    font-size: 2.125rem;
+  }
+    
+    .roller {
+    height: 2.225rem; 
+    line-height: 2.125rem; 
+    }
+
+    
+    .roller #rolltext {  
+    animation: slide-mob 4s infinite;  
+  }
+    
+
+  
+    @keyframes slide-mob {
+        0%{
+            top:0;
+          }
+          25%{
+            top: -2.125rem;    
+          }
+          50%{
+            top: -4.25rem;
+          }
+          /* 72.5%{ */
+            top: -6.25rem;
+          }
+    }
+
   @media screen and (max-width: 600px){
+    .welcome>h1 {
+    text-align:center;
+    text-transform: uppercase;
+    /* color: #82B6E0; */
+    font-size: 2.125rem;
+  }
+    
+    .roller {
+    height: 2.225rem; 
+    line-height: 2.125rem; 
+    }
+
+    
+    .roller #rolltext {  
+    animation: slide-mob 4s infinite;  
+  }
+    
+
+  
+    @keyframes slide-mob {
+        0%{
+            top:0;
+          }
+          25%{
+            top: -2.125rem;    
+          }
+          50%{
+            top: -4.25rem;
+          }
+    }
+  }
+
+  @media screen and (max-width: 449px){
+    .welcome>h1 {
+    text-align:center;
+    text-transform: uppercase;
+    /* color: #82B6E0; */
+    font-size: 2.125rem;
+  }
+    
+    .roller {
+    height: 2.225rem;
+    line-height: 2.125rem;
+    }
+
+    
+    .roller #rolltext {  
+    animation: slide-mob 5s infinite;  
+  }
+    
+    @keyframes slide-mob {
+        0%{
+            top:0;
+          }
+          25%{
+            top: -2.125rem;    
+          }
+          50%{
+            top: -4.25rem;
+          }
+          72.5%{
+            top: -6.375rem;
+          }
+    }
+  }
+
+  @media screen and (max-width: 381px){
+    .welcome>h1 {
+    text-align:center;
+    text-transform: uppercase;
+    /* color: #82B6E0; */
+    font-size: 2.125rem;
+  }
+    
+    .roller {
+    height: 2.225rem;
+    line-height: 2.125rem;
+    }
+
+    
+    .roller #rolltext {  
+    animation: slide-mob 6s infinite;  
+  }
+    
+    @keyframes slide-mob {
+        0%{
+            top:0;
+          }
+          25%{
+            top: -2.125rem;    
+          }
+          50%{
+            top: -4.25rem;
+          }
+          72.5%{
+            top: -6.375rem;
+          }
+          90.5%{
+            top: -8.375rem;
+        }
+    }
+  }
+
+  @media screen and (max-width: 270px){
     .welcome>h1 {
     text-align:center;
     text-transform: uppercase;
@@ -155,16 +294,7 @@ body {
     50%{
       top: -8.625rem;
     }
-    /* 72.5%{ */
-      /* top: -10.125rem; */
     }
-    /* 75%{ */
-        /* top: -10.125rem; */
-    }
-    /* 80%{ */
-        /* top: -10.125rem; */
-    }
-  }
   }
 
 .hash {
