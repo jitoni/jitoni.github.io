@@ -232,17 +232,17 @@ body {
     text-align:center;
     text-transform: uppercase;
     /* color: #82B6E0; */
-    font-size: 2.125rem;
+    font-size: 2.025rem;
   }
     
     .roller {
     height: 2.225rem;
-    line-height: 2.125rem;
+    line-height: 2.025rem;
     }
 
     
     .roller #rolltext {  
-    animation: slide-mob 6s infinite;  
+    animation: slide-mob 5s infinite;  
   }
     
     @keyframes slide-mob {
@@ -250,7 +250,7 @@ body {
             top:0;
           }
           25%{
-            top: -2.125rem;    
+            top: -2.025rem;   
           }
           50%{
             top: -4.25rem;
@@ -258,9 +258,6 @@ body {
           72.5%{
             top: -6.375rem;
           }
-          90.5%{
-            top: -8.375rem;
-        }
     }
   }
 
